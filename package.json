@@ -5,21 +5,15 @@
   "author": "Yan Zhu <picturepan2@hotmail.com>",
   "description": "Spectre.css: a lightweight, responsive and modern CSS framework",
   "main": "docs/dist/spectre.css",
+  "scripts": {
+    "fix": "prettier src/**/*.scss --write"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/picturepan2/spectre.git"
   },
   "license": "MIT",
-  "keywords": [
-    "css",
-    "framework",
-    "flexbox",
-    "responsive",
-    "mobile-friendly",
-    "front-end",
-    "sass",
-    "modern"
-  ],
+  "keywords": ["css", "framework", "flexbox", "responsive", "mobile-friendly", "front-end", "sass", "modern"],
   "bugs": {
     "url": "https://github.com/picturepan2/spectre/issues"
   },
@@ -29,7 +23,8 @@
     "gulp-clean-css": "^3.7.0",
     "gulp-csscomb": "^3.0.8",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "latest"
+    "gulp-sass": "latest",
+    "prettier": "^1.11.1"
   },
   "browserslist": [
     "last 4 Chrome versions",

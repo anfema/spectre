@@ -7,8 +7,8 @@
     border-bottom: 0;
     border-right: 0;
     content: "";
-    height: .45em;
-    width: .45em;
+    height: 0.45em;
+    width: 0.45em;
   }
 
   &::before {
@@ -35,7 +35,7 @@
 .#{$icon-prefix}-more-vert {
   &::before {
     background: currentColor;
-    box-shadow: -.4em 0, .4em 0;
+    box-shadow: -0.4em 0, 0.4em 0;
     border-radius: 50%;
     content: "";
     height: 3px;
@@ -45,7 +45,7 @@
 
 .#{$icon-prefix}-more-vert {
   &::before {
-    box-shadow: 0 -.4em, 0 .4em;
+    box-shadow: 0 -0.4em, 0 0.4em;
   }
 }
 
@@ -93,8 +93,8 @@
     border-right: 0;
     border-top: 0;
     content: "";
-    height: .5em;
-    width: .9em;
+    height: 0.5em;
+    width: 0.9em;
     transform: translate(-50%, -75%) rotate(-45deg);
   }
 }
@@ -122,8 +122,8 @@
   &::before {
     background: currentColor;
     content: "";
-    height: .5em;
-    top: .1em;
+    height: 0.5em;
+    top: 0.1em;
     width: $icon-border-width;
   }
 }
@@ -140,7 +140,7 @@
   }
 
   &::after {
-    border: .2em solid currentColor;
+    border: 0.2em solid currentColor;
     border-top-color: transparent;
     border-left-color: transparent;
     content: "";
@@ -157,11 +157,11 @@
     border: $icon-border-width solid currentColor;
     border-radius: 50%;
     content: "";
-    height: .75em;
+    height: 0.75em;
     left: 5%;
     top: 5%;
     transform: translate(0, 0) rotate(45deg);
-    width: .75em;
+    width: 0.75em;
   }
 
   &::after {
@@ -171,7 +171,7 @@
     left: 80%;
     top: 80%;
     transform: translate(-50%, -50%) rotate(45deg);
-    width: .4em;
+    width: 0.4em;
   }
 }
 
@@ -180,13 +180,13 @@
   &::before {
     border: $icon-border-width solid currentColor;
     content: "";
-    height: .4em;
+    height: 0.4em;
     transform: translate(-40%, -60%) rotate(-45deg);
-    width: .85em;
+    width: 0.85em;
   }
 
   &::after {
-    border: .15em solid currentColor;
+    border: 0.15em solid currentColor;
     border-top-color: transparent;
     border-right-color: transparent;
     content: "";
@@ -206,18 +206,18 @@
     border-bottom-right-radius: $border-radius;
     border-top: 0;
     content: "";
-    height: .75em;
+    height: 0.75em;
     top: 60%;
-    width: .75em;
+    width: 0.75em;
   }
 
   &::after {
     background: currentColor;
-    box-shadow: -.25em .2em, .25em .2em;
+    box-shadow: -0.25em 0.2em, 0.25em 0.2em;
     content: "";
     height: $icon-border-width;
     top: $icon-border-width/2;
-    width: .5em;
+    width: 0.5em;
   }
 }
 
@@ -233,11 +233,11 @@
     border-left: 0;
     border-top: 0;
     content: "";
-    height: .4em;
+    height: 0.4em;
     left: 100%;
-    top: .25em;
+    top: 0.25em;
     transform: translate(-125%, -50%) rotate(-45deg);
-    width: .4em;
+    width: 0.4em;
   }
 
   &::after {
@@ -246,8 +246,8 @@
     border-right: 0;
     border-radius: 75% 0;
     content: "";
-    height: .5em;
-    width: .6em;
+    height: 0.5em;
+    width: 0.6em;
   }
 }
 
@@ -267,10 +267,10 @@
     border-left: 0;
     border-top-right-radius: $border-radius;
     content: "";
-    height: .65em;
+    height: 0.65em;
     top: 35%;
     left: 60%;
-    width: .8em;
+    width: 0.8em;
   }
 }
 
@@ -282,8 +282,8 @@
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
     content: "";
-    height: .9em;
-    width: .8em;
+    height: 0.9em;
+    width: 0.8em;
   }
 
   &::after {
@@ -292,9 +292,9 @@
     border-left: 0;
     border-radius: $border-radius;
     content: "";
-    height: .5em;
+    height: 0.5em;
     transform: translate(-50%, 35%) rotate(-45deg) skew(15deg, 15deg);
-    width: .5em;
+    width: 0.5em;
   }
 }
 
@@ -308,15 +308,15 @@
     border-bottom: 0;
     border-right: 0;
     content: "";
-    height: .5em;
-    width: .5em;
+    height: 0.5em;
+    width: 0.5em;
     transform: translate(-50%, -60%) rotate(-135deg);
   }
 
   &::after {
     background: currentColor;
     content: "";
-    height: .6em;
+    height: 0.6em;
     top: 40%;
     width: $icon-border-width;
   }
